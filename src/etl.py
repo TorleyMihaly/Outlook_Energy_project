@@ -1,6 +1,6 @@
 
-from open_meteo_request import request
-from SQLite_db_init import db_init
+from utils.open_meteo_request import request
+from utils.SQLite_db_init import db_init
 import pandas as pd
 
 
