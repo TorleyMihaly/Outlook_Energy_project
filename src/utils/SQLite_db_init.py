@@ -4,7 +4,7 @@ import os
 from IPython.display import display
 from pathlib import Path
 
-repo_root = Path(__file__).resolve().parent.parent
+repo_root = Path(__file__).resolve().parent.parent.parent
 data_dir = repo_root / "data"
 data_dir.mkdir(parents=True, exist_ok=True)
 
